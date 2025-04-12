@@ -23,8 +23,17 @@ html {
     transition: all 0.3s ease;
 }
 
+.btn-primary .fa-chevron-right {
+    transition: all 0.3s ease;
+    margin-left: 5px;
+}
+
 .btn-primary:hover {
     background-color: #11632d;
+}
+
+.btn-primary:hover .fa-chevron-right {
+    transform: translateX(5px);
 }
 
 .btn-outline-secondary {
@@ -36,6 +45,17 @@ html {
 .btn-outline-secondary:hover {
     background-color: var(--dark-color);
     color: #fff;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-paragraph {
+    color: #6c757d;
+    font-size: 16px;
 }
 
 /* =================================================== GLOBAL STYLES */
@@ -58,7 +78,7 @@ html {
 }
 
 .nav-link:hover {
-    color: #15803d;
+    color: var(--secondary-color);
 }
 
 /* hamburger */
@@ -121,6 +141,7 @@ html {
     top: 20.5px;
     left: 5px;
 }
+
 /* hamburger */
 
 @media screen and (max-width: 768px) {
@@ -189,3 +210,17 @@ html {
 }
 
 /* =================================================== HERO */
+
+
+/* =================================================== About */
+.about-img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto 0;
+    box-shadow: 2px 4px 20px #00812d41;
+}
+/* =================================================== About */
