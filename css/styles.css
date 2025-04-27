@@ -247,7 +247,7 @@ html {
         text-align: left;
         padding: 80px 0;
     }
-
+    
     .hero-buttons {
         display: flex;
         gap: 15px;
@@ -257,7 +257,41 @@ html {
 /* =================================================== HERO */
 
 
+/* =================================================== SERVICES SECTION */
+.services .icon-box i{
+    color: var(--primary-color);
+}
+
+.services .icon-box {
+    width: 60px;
+    height: 60px;
+    background-color: #e6f4ea;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services .card{
+    background-color: #f8f9fa;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.services .card:hover{
+    transform: translateY(-5px);
+}
+
+/* =================================================== SERVICES SECTION */
+
+
 /* =================================================== About */
+.about{
+    background: var(--section-bg-grey);
+    padding: 20px 0;
+}
+
 .about-img {
     object-fit: cover;
     width: 100%;
@@ -268,12 +302,11 @@ html {
     margin: 20px auto 0;
     box-shadow: 2px 4px 20px #00812d41;
 }
-
 /* =================================================== About */
 
 
 /* =================================================== FOOTER */
-.footer{
+.footer {
     background-color: var(--dark-color);
     color: #fff;
     padding: 20px 0;
@@ -288,7 +321,7 @@ html {
     transition: color 0.2s ease-in-out;
 }
 
-.footer p{
+.footer p {
     font-size: 15px;
     font-weight: 300;
     color: #9CA3AF;
@@ -303,4 +336,6 @@ html {
     width: 10rem;
     height: auto;
 }
+
 /* =================================================== FOOTER */
+
